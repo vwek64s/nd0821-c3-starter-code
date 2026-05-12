@@ -1,0 +1,528 @@
+Feature: workclass
+================================================================================
+workclass: ?
+precision: 0.53125
+recall: 0.4722222222222222
+fbeta: 0.5
+
+workclass: Federal-gov
+precision: 0.7285714285714285
+recall: 0.6710526315789473
+fbeta: 0.6986301369863014
+
+workclass: Local-gov
+precision: 0.7352941176470589
+recall: 0.625
+fbeta: 0.6756756756756757
+
+workclass: Never-worked
+precision: 1.0
+recall: 1.0
+fbeta: 1.0
+
+workclass: Private
+precision: 0.7365967365967366
+recall: 0.626362735381566
+fbeta: 0.6770219603642207
+
+workclass: Self-emp-inc
+precision: 0.75
+recall: 0.788135593220339
+fbeta: 0.768595041322314
+
+workclass: Self-emp-not-inc
+precision: 0.7844827586206896
+recall: 0.6363636363636364
+fbeta: 0.7027027027027027
+
+workclass: State-gov
+precision: 0.6567164179104478
+recall: 0.6666666666666666
+fbeta: 0.6616541353383458
+
+workclass: Without-pay
+precision: 1.0
+recall: 1.0
+fbeta: 1.0
+
+
+Feature: education
+================================================================================
+education: 10th
+precision: 1.0
+recall: 0.2
+fbeta: 0.3333333333333333
+
+education: 11th
+precision: 1.0
+recall: 0.2727272727272727
+fbeta: 0.42857142857142855
+
+education: 12th
+precision: 0.3333333333333333
+recall: 0.25
+fbeta: 0.2857142857142857
+
+education: 1st-4th
+precision: 1.0
+recall: 0.5
+fbeta: 0.6666666666666666
+
+education: 5th-6th
+precision: 1.0
+recall: 1.0
+fbeta: 1.0
+
+education: 7th-8th
+precision: 1.0
+recall: 0.0
+fbeta: 0.0
+
+education: 9th
+precision: 1.0
+recall: 0.14285714285714285
+fbeta: 0.25
+
+education: Assoc-acdm
+precision: 0.7804878048780488
+recall: 0.5818181818181818
+fbeta: 0.6666666666666666
+
+education: Assoc-voc
+precision: 0.8070175438596491
+recall: 0.5411764705882353
+fbeta: 0.647887323943662
+
+education: Bachelors
+precision: 0.74235807860262
+recall: 0.7780320366132724
+fbeta: 0.7597765363128491
+
+education: Doctorate
+precision: 0.8888888888888888
+recall: 0.8888888888888888
+fbeta: 0.8888888888888888
+
+education: HS-grad
+precision: 0.597457627118644
+recall: 0.415929203539823
+fbeta: 0.49043478260869566
+
+education: Masters
+precision: 0.8440860215053764
+recall: 0.8626373626373627
+fbeta: 0.8532608695652174
+
+education: Preschool
+precision: 1.0
+recall: 1.0
+fbeta: 1.0
+
+education: Prof-school
+precision: 0.8144329896907216
+recall: 0.9518072289156626
+fbeta: 0.8777777777777778
+
+education: Some-college
+precision: 0.65
+recall: 0.5107142857142857
+fbeta: 0.572
+
+
+Feature: marital-status
+================================================================================
+marital-status: Divorced
+precision: 0.7346938775510204
+recall: 0.34951456310679613
+fbeta: 0.47368421052631576
+
+marital-status: Married-AF-spouse
+precision: 1.0
+recall: 0.0
+fbeta: 0.0
+
+marital-status: Married-civ-spouse
+precision: 0.7253968253968254
+recall: 0.6815809097688292
+fbeta: 0.7028066128412149
+
+marital-status: Married-spouse-absent
+precision: 1.0
+recall: 0.4
+fbeta: 0.5714285714285714
+
+marital-status: Never-married
+precision: 0.8695652173913043
+recall: 0.449438202247191
+fbeta: 0.5925925925925926
+
+marital-status: Separated
+precision: 0.8571428571428571
+recall: 0.375
+fbeta: 0.5217391304347826
+
+marital-status: Widowed
+precision: 1.0
+recall: 0.45454545454545453
+fbeta: 0.625
+
+
+Feature: occupation
+================================================================================
+occupation: ?
+precision: 0.53125
+recall: 0.4722222222222222
+fbeta: 0.5
+
+occupation: Adm-clerical
+precision: 0.625
+recall: 0.4878048780487805
+fbeta: 0.547945205479452
+
+occupation: Armed-Forces
+precision: 1.0
+recall: 1.0
+fbeta: 1.0
+
+occupation: Craft-repair
+precision: 0.5915492957746479
+recall: 0.45652173913043476
+fbeta: 0.5153374233128835
+
+occupation: Exec-managerial
+precision: 0.8081081081081081
+recall: 0.7647058823529411
+fbeta: 0.78580814717477
+
+occupation: Farming-fishing
+precision: 0.75
+recall: 0.42857142857142855
+fbeta: 0.5454545454545454
+
+occupation: Handlers-cleaners
+precision: 0.5
+recall: 0.4166666666666667
+fbeta: 0.45454545454545453
+
+occupation: Machine-op-inspct
+precision: 0.7272727272727273
+recall: 0.3076923076923077
+fbeta: 0.43243243243243246
+
+occupation: Other-service
+precision: 0.6666666666666666
+recall: 0.16666666666666666
+fbeta: 0.26666666666666666
+
+occupation: Priv-house-serv
+precision: 1.0
+recall: 1.0
+fbeta: 1.0
+
+occupation: Prof-specialty
+precision: 0.7777777777777778
+recall: 0.8166666666666667
+fbeta: 0.7967479674796748
+
+occupation: Protective-serv
+precision: 0.7419354838709677
+recall: 0.5476190476190477
+fbeta: 0.6301369863013698
+
+occupation: Sales
+precision: 0.726775956284153
+recall: 0.6519607843137255
+fbeta: 0.6873385012919897
+
+occupation: Tech-support
+precision: 0.72
+recall: 0.631578947368421
+fbeta: 0.6728971962616822
+
+occupation: Transport-moving
+precision: 0.6111111111111112
+recall: 0.36065573770491804
+fbeta: 0.4536082474226804
+
+
+Feature: relationship
+================================================================================
+relationship: Husband
+precision: 0.7220708446866485
+recall: 0.6760204081632653
+fbeta: 0.6982872200263505
+
+relationship: Not-in-family
+precision: 0.8
+recall: 0.4121212121212121
+fbeta: 0.544
+
+relationship: Other-relative
+precision: 1.0
+recall: 0.3333333333333333
+fbeta: 0.5
+
+relationship: Own-child
+precision: 0.75
+recall: 0.2
+fbeta: 0.3157894736842105
+
+relationship: Unmarried
+precision: 0.8888888888888888
+recall: 0.37209302325581395
+fbeta: 0.5245901639344263
+
+relationship: Wife
+precision: 0.7468354430379747
+recall: 0.7375
+fbeta: 0.7421383647798742
+
+
+Feature: race
+================================================================================
+race: Amer-Indian-Eskimo
+precision: 0.6666666666666666
+recall: 0.4444444444444444
+fbeta: 0.5333333333333333
+
+race: Asian-Pac-Islander
+precision: 0.6530612244897959
+recall: 0.6153846153846154
+fbeta: 0.6336633663366337
+
+race: Black
+precision: 0.7941176470588235
+recall: 0.5806451612903226
+fbeta: 0.6708074534161491
+
+race: Other
+precision: 1.0
+recall: 1.0
+fbeta: 1.0
+
+race: White
+precision: 0.7318840579710145
+recall: 0.6446808510638298
+fbeta: 0.6855203619909502
+
+
+Feature: sex
+================================================================================
+sex: Female
+precision: 0.7638190954773869
+recall: 0.6204081632653061
+fbeta: 0.6846846846846847
+
+sex: Male
+precision: 0.7273504273504273
+recall: 0.6432350718065004
+fbeta: 0.6827115924588849
+
+
+Feature: native-country
+================================================================================
+native-country: ?
+precision: 0.7297297297297297
+recall: 0.84375
+fbeta: 0.782608695652174
+
+native-country: Cambodia
+precision: 0.5
+recall: 1.0
+fbeta: 0.6666666666666666
+
+native-country: Canada
+precision: 0.25
+recall: 0.2
+fbeta: 0.2222222222222222
+
+native-country: China
+precision: 0.8
+recall: 1.0
+fbeta: 0.8888888888888888
+
+native-country: Columbia
+precision: 0.0
+recall: 1.0
+fbeta: 0.0
+
+native-country: Cuba
+precision: 1.0
+recall: 0.75
+fbeta: 0.8571428571428571
+
+native-country: Dominican-Republic
+precision: 1.0
+recall: 1.0
+fbeta: 1.0
+
+native-country: Ecuador
+precision: 1.0
+recall: 1.0
+fbeta: 1.0
+
+native-country: El-Salvador
+precision: 1.0
+recall: 1.0
+fbeta: 1.0
+
+native-country: England
+precision: 0.75
+recall: 0.42857142857142855
+fbeta: 0.5454545454545454
+
+native-country: France
+precision: 0.0
+recall: 1.0
+fbeta: 0.0
+
+native-country: Germany
+precision: 0.6666666666666666
+recall: 0.5714285714285714
+fbeta: 0.6153846153846154
+
+native-country: Greece
+precision: 1.0
+recall: 1.0
+fbeta: 1.0
+
+native-country: Guatemala
+precision: 1.0
+recall: 0.5
+fbeta: 0.6666666666666666
+
+native-country: Haiti
+precision: 1.0
+recall: 1.0
+fbeta: 1.0
+
+native-country: Honduras
+precision: 1.0
+recall: 1.0
+fbeta: 1.0
+
+native-country: Hong
+precision: 1.0
+recall: 1.0
+fbeta: 1.0
+
+native-country: Hungary
+precision: 1.0
+recall: 1.0
+fbeta: 1.0
+
+native-country: India
+precision: 0.7
+recall: 1.0
+fbeta: 0.8235294117647058
+
+native-country: Iran
+precision: 0.25
+recall: 0.3333333333333333
+fbeta: 0.2857142857142857
+
+native-country: Ireland
+precision: 1.0
+recall: 1.0
+fbeta: 1.0
+
+native-country: Italy
+precision: 1.0
+recall: 0.625
+fbeta: 0.7692307692307693
+
+native-country: Jamaica
+precision: 0.0
+recall: 1.0
+fbeta: 0.0
+
+native-country: Japan
+precision: 0.8333333333333334
+recall: 0.7142857142857143
+fbeta: 0.7692307692307693
+
+native-country: Laos
+precision: 1.0
+recall: 1.0
+fbeta: 1.0
+
+native-country: Mexico
+precision: 0.5
+recall: 0.3333333333333333
+fbeta: 0.4
+
+native-country: Nicaragua
+precision: 1.0
+recall: 0.0
+fbeta: 0.0
+
+native-country: Outlying-US(Guam-USVI-etc)
+precision: 1.0
+recall: 1.0
+fbeta: 1.0
+
+native-country: Peru
+precision: 1.0
+recall: 1.0
+fbeta: 1.0
+
+native-country: Philippines
+precision: 0.6666666666666666
+recall: 0.6666666666666666
+fbeta: 0.6666666666666666
+
+native-country: Poland
+precision: 0.3333333333333333
+recall: 1.0
+fbeta: 0.5
+
+native-country: Portugal
+precision: 1.0
+recall: 0.0
+fbeta: 0.0
+
+native-country: Puerto-Rico
+precision: 0.6
+recall: 0.75
+fbeta: 0.6666666666666666
+
+native-country: Scotland
+precision: 1.0
+recall: 1.0
+fbeta: 1.0
+
+native-country: South
+precision: 1.0
+recall: 0.0
+fbeta: 0.0
+
+native-country: Taiwan
+precision: 0.6666666666666666
+recall: 0.6666666666666666
+fbeta: 0.6666666666666666
+
+native-country: Thailand
+precision: 1.0
+recall: 1.0
+fbeta: 1.0
+
+native-country: Trinadad&Tobago
+precision: 1.0
+recall: 1.0
+fbeta: 1.0
+
+native-country: United-States
+precision: 0.7371794871794872
+recall: 0.6380027739251041
+fbeta: 0.6840148698884758
+
+native-country: Vietnam
+precision: 1.0
+recall: 0.0
+fbeta: 0.0
+
+native-country: Yugoslavia
+precision: 1.0
+recall: 0.5
+fbeta: 0.6666666666666666
+

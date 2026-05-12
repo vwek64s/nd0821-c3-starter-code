@@ -122,7 +122,7 @@ def run_sanity_check(test_dir):
     if SANITY_TEST_PASSING:
         print(OK_COLOR+"Your test cases look good!")
     
-    print(WARN_COLOR+"This is a heuristic based sanity testing and cannot guarantee the correctness of your code.")
+        print(WARN_COLOR+"This is a heuristic based sanity testing and cannot guarantee the correctness of your code.")
     print(WARN_COLOR+"You should still check your work against the rubric to ensure you meet the criteria.")
 
 
@@ -132,4 +132,3 @@ if __name__ == "__main__":
     parser.add_argument('test_dir',metavar='test_dir',nargs='?',default='tests',help='Name of the directory that has test files.')
     args = parser.parse_args()
     run_sanity_check(args.test_dir)
-
