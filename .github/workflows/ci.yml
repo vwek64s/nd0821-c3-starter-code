@@ -24,7 +24,7 @@ jobs:
           pip install flake8
 
       - name: Run tests
-        run: pytest
+        run: pytest starter
 
       - name: Run flake8
         run: flake8 starter
