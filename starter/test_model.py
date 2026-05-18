@@ -1,7 +1,7 @@
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 
-from starter.ml.model import (
+from starter.starter.ml.model import (
     compute_model_metrics,
     inference,
     train_model,
